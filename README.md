@@ -14,12 +14,9 @@ This project is algo using Docker to orchastrate the containers and run the appl
 
 ## Installation
 
-To install all the packages used in this Laravel application you must use this command.
+To install all the packages used in this Laravel application you must Clone this repository and use these commands.
 
-```bash
-$ cd api-tdd
-```
-
+Inside the cloned repository project, run docker dependencies to get php, composer and laravel installations. (You must download and configure docker in your setup for this to work.
 ```bash
 $ docker run --rm \
     -u "$(id -u):$(id -g)" \
